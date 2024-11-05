@@ -1,7 +1,7 @@
 package com.edu.jenkins.controller;
 
-import com.edu.bootproject.dto.CalculatorDTO;
-import com.edu.bootproject.service.CalculatorService;
+import com.edu.jenkins.dto.CalculatorDTO;
+import com.edu.jenkins.service.CalculatorService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.ResponseEntity;

@@ -1,6 +1,6 @@
 package com.edu.jenkins.service;
 
-import com.edu.bootproject.dto.CalculatorDTO;
+import com.edu.jenkins.dto.CalculatorDTO;
 import org.springframework.stereotype.Service;
 
 @Service

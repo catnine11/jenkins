@@ -16,8 +16,11 @@ public class CalculateController {
     private final CalculatorService calculatorService;
 
     @GetMapping("/health")
+//    public String healthCheck() {
+//        return "I'm alive";
+//    }
     public String healthCheck() {
-        return "I'm alive";
+        return "젠킨스 테스트 확인";
     }
 
     @GetMapping("/plus")

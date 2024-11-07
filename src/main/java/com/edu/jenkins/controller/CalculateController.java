@@ -21,7 +21,7 @@ public class CalculateController {
 //    }
     public String healthCheck() {
 //        return "젠킨스 테스트 확인";
-        return "argocd 테스트 확인";
+        return "argocd test";
     }
 
     @GetMapping("/plus")
